@@ -1,0 +1,302 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-14 20:23:05
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-16 22:28:31
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	width: 100%;
+	height: 0.75rem;
+	background: orange;
+	display: flex;
+	justify-content: space-between;
+}
+.head .icon-fanhui{
+	font-size: 0.5rem;	
+	line-height: 0.75rem;
+	color: white;
+}
+.head .icon-sousuo{
+	font-size: 0.5rem;	
+	line-height: 0.75rem;
+	margin-left: 0.8rem;
+	color: white;
+}
+.head .icon-Group-{
+	font-size: 0.5rem;	
+	line-height: 0.75rem;
+	margin-right: 0.1rem;
+	color: white;
+}
+.head p{
+	font-size: 0.3rem;
+	color: white;
+	/* text-align: center; */
+	line-height: 0.75rem;
+	margin-left: 2rem;
+}
+.banner{
+	width: 7rem;
+	height: 3.25rem;
+	/* background: red; */
+	/* padding-right: 0.24rem;
+	padding-left: 0.24rem; */
+	margin: 0 auto;
+	margin-top: 0.3rem;
+}
+.banner img{
+	width: 7rem;
+	height: 3.25rem;
+}
+.section{
+	width: 100%;
+	height: 1rem;
+	/* background: red; */
+	margin-top: 0.3rem;
+
+}
+.section .text{
+	width: 100%;
+	height: 0.5rem;
+	/* background: blue; */
+
+}
+.section .text p{
+	font-size: 0.3rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+.section .text .box{
+	width: 1rem;
+	height: 0.3rem;
+	background: white;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.3rem;
+	border-radius: 0.2rem;
+	border: 0.02rem solid orange;
+	text-align: center;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	color: #eb4ba1;
+}
+.section i{
+	display: block;
+	font-style: normal;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+	margin-left: 0.24rem;
+	color: #b8b8b8;
+}
+.section h3{
+	font-size: 0.4rem;
+	margin-top: -0.5rem;
+	margin-left: 5rem;
+	color: #eb4ba1;
+}
+.middle{
+	width: 100%;
+	height: 1rem;
+	/* background: red; */
+	margin-top: 0.5rem;
+}
+.middle p{
+	font-size: 0.3rem;
+	line-height: 1rem;
+	margin-left: 0.24rem;
+}
+.middle i{
+	display: block;
+	font-size: 0.2rem;
+	font-style: normal;
+	margin-top: -0.6rem;
+	margin-left: 4rem;
+	color: #b8b8b8;
+}
+.middle .box{
+	width: 1rem;
+	height: 0.5rem;
+	background: orange;
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: -0.4rem;
+	border-radius: 0.2rem;
+	line-height: 0.5rem;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.tou{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	margin-top: 0.3rem;
+}
+.tou .pic{
+	width: 1rem;
+	height: 1rem;
+	/* background: border-left: ;e; */
+	margin-left: 0.24rem;
+}
+.tou .pic img{
+	width: 1rem;
+	height: 1rem;
+}
+.tou p{
+	font-size: 0.3rem;
+	margin-top: -0.8rem;
+	margin-left: 1.5rem;
+	color: #b8b8b8;
+}
+.tou i{
+	display: block;
+	font-size: 0.3rem;
+	margin-top: 0;
+	margin-left: 1.5rem;
+	font-style: normal;
+	color: #b8b8b8;
+}
+.title{
+	width: 7rem;
+	height: 0.8rem;
+	background: #fdfcfa;
+	margin-top: 0.2rem;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.3rem;
+	color: #b8b8b8;
+}
+.pei{
+	width: 100%;
+	height:1rem;
+	/* background: red; */
+	margin-top: 0.3rem; 
+}
+.pei p{
+	font-size: 0.3rem;
+	margin-left: 0.24rem;
+	line-height: 1rem;
+}
+.liao{
+	width: 100%;
+	height:0.8rem;
+	/* background: red; */
+	margin-top: 0.2rem; 
+}
+.liao p{
+	font-size: 0.2rem;
+	margin-left: 0.24rem;
+	margin-top: 0.2rem;
+}
+.liao i{
+	display: block;
+	font-size: 0.2rem;
+	margin-left: 0.24rem;
+	margin-top: 0.2rem;
+}
+.tui{
+	width: 100%;
+	height:0.8rem;
+	/* background: red; */
+	margin-top: 0.2rem; 
+}
+.tui p{
+	font-size: 0.3rem;
+	margin-left: 0.24rem;
+	line-height: 0.8rem;
+}
+.list{
+	width: 2rem;
+	height: 2rem;
+	/* background: red; */
+	margin-left: 0.4rem;
+	margin-top: 0.1rem;
+	border-radius: 0.1rem;
+	float: left;
+}
+.list .pic{
+	width: 100%;
+	height: 1rem;
+	/* background: blue; */
+}
+.list .pic img{
+	width: 100%;
+	height: 1rem;
+}
+.list p{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.4rem;
+
+}
+.list i{
+	display: block;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.1rem;
+	font-style: normal;
+}
+.list .money{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #f290c3;
+}
+.last{
+	width: 100%;
+	height: 1rem;
+	margin-top: 2.3rem;
+	background: #f8f8f8;
+}
+.last .che{
+	width: 1.1rem;
+	height: 1.1rem;
+	border-radius: 50%;
+	background: #8f8d90;
+	margin-top: 1rem;
+	position: fixed;
+	/* bottom: 0.2rem;
+	left: 0.5rem; */
+}
+.last .che img{
+	width: 100%;
+	height: 100%;
+}
+.last p{
+	width: 1.5rem;
+	font-size: 0.2rem;
+	color:#a7a5a6;
+	margin-left: 2rem;
+	margin-top: 0.1rem;
+	/* text-align: center; */
+	line-height: 0.4rem;
+}
+.last .box{
+	width: 1.5rem;
+	height: 1rem;
+	background:#8f8d90;
+	float: right;
+	/* position: fixed;
+	bottom: 0;
+	right: 0; */
+	/* border-radius: 0.2rem; */
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1rem;
+	margin-top: -0.9rem;
+}
+.last .box a{
+	text-decoration: none;
+	color: #cccccc;
+}
+.last .icon-gouwuche2{
+	display: block;
+	font-size: 0.8rem;
+	margin-top: -1.2rem;
+	margin-left: 0.3rem;
+	color: #999999;
+}

@@ -1,0 +1,325 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-14 10:17:48
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-16 22:27:04
+*/
+body{
+	position: relative;
+}
+.head{
+	width: 7.5rem;
+	height: 2.3rem;
+	background: orange;
+}
+.head .box{
+	height: 0.7rem;
+	width: 7.5rem;
+	/* background: red; */
+	position: relative;
+
+}
+.head .box i{
+	font-size: 0.4rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0;
+	color: white;
+}
+.head .box i:nth-child(2){
+	position: absolute;
+	left: 7rem;
+	top: 0.1rem;
+	/* color: black; */
+}
+.head .nav{
+	width: 7.5rem;
+	height: 1.6rem;
+	
+}
+.head .nav .box{
+	width: 1.3rem;
+	height: 1.25rem;
+	background: red;
+	margin-left: 1.2rem;
+	border-radius: 0.2rem;
+	float: left ;
+}
+.head .nav .box img{
+	width: 100%;
+	height: 100%;
+}
+.head .nav .right{
+	width: 5rem;
+	height: 1.6rem;
+	/* background: red; */
+	float: left;
+}
+
+.head .nav .right h3{
+	font-size: 0.25rem;
+	margin-top: 0.1rem;
+	color: white;
+}
+.head .nav .right p{
+	font-size: 0.5rem;
+	margin-top: -0.25rem;
+	color: white;
+	margin-left: -0.1rem;
+}
+.head .nav .right i{
+	font-size: 0.2rem;
+	margin-left: -0.3rem;
+	font-style: normal;
+
+}
+.head .nav .right .boss{
+	width: 5rem;
+	height: 0.5rem;
+	/* background: pink; */
+	margin-top: -0.55rem;
+	display: flex;
+	flex-direction: row;
+
+
+}
+.head .nav .right .boss .song{
+	width: 0.6rem;
+	height: 0.25rem;
+	/* background: black; */
+	margin-top: 0.1rem;
+	border-radius: 0.15rem;
+	border: 0.01rem solid #fff;
+	margin-left: 0.05rem;
+
+
+}
+.head .nav .right .boss .song p{
+	font-size: 0.14rem;
+	color: white;
+	text-align: center;
+	/* line-height: 0.25rem; */
+	margin-top: 0.04rem;
+
+}
+.head .nav .right .boss h1{
+	font-size: 0.2rem;
+	color: white;
+}
+.middle{
+	width: 7.5rem;
+	height: 0.6rem;
+	background: #eef100;
+
+}
+.middle p{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.6rem;
+	margin: 0;
+	color: white;
+}
+.title{
+	width: 7.5rem;
+	height: 1rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-around;
+}
+.title p{
+	font-size: 0.5rem;
+	margin: 0;
+	color: #929292;
+	margin-top: 0.3rem;
+	/* border-bottom: 0.05rem solid orange; */
+}
+.title p:nth-child(1){
+	border-bottom: 0.05rem solid orange;
+}
+.left{
+	width: 2.35rem;
+	
+	background: #f8f8f8;
+	margin-top: -1rem;
+	float: left;
+	
+}
+.left ul li{
+
+	height: 0.9rem;
+	list-style: none;
+	
+
+}
+.left ul li p{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.left ul li:nth-child(2){
+	background: orange;
+}
+.left ul{
+	padding: 0;
+}
+.you{
+	width: 4.5rem;
+	height: 8rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+.you .box{
+	width: 100%;
+	height: 1.5rem;
+	/* background: blue; */
+	margin-top: 0.5rem;
+}
+.you .box .pic{
+	width: 1.5rem;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+}
+.you .box .pic img{
+	width: 1.5rem;
+	height: 100%;
+}
+.you .box .zhan{
+	/* background: pink; */
+	float: left;
+	position: relative;
+}
+.you .box .zhan p{
+	font-size: 0.3rem;
+	margin-top: 0.2rem;
+}
+.you .box .zhan i{
+	display: block;
+	color: orange;
+	font-size: 0.3rem;
+	margin-top: -0.3rem;
+	float: left;
+}
+.you .box .zhan h3{
+	font-size: 0.3rem;
+	color: orange;
+}
+.you .box .zhan .icon-jiahao2{
+	position: absolute;
+	top: 0.1rem;
+	right: -1rem;
+	color: orange;
+}
+.bottom{
+	width: 100%;
+	height: 0.9rem;
+	background: #fffafa;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.bottom p{
+	width: 1.5rem;
+	font-size: 0.2rem;
+	color:#a7a5a6;
+	margin-left: 2rem;
+	margin-top: 0.1rem;
+}
+.bottom .box{
+	width: 1.5rem;
+	height: 0.5rem;
+	background:#8f8d90;
+	/* float: right; */
+	position: fixed;
+	bottom: 0.1rem;
+	right: 0.3rem;
+	border-radius: 0.2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.bottom .box a{
+	text-decoration: none;
+	color: #cccccc;
+}
+.bottom .che{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background: #8f8d90;
+	position: fixed;
+	bottom: 0.3rem;
+	left: 0.5rem;
+}
+.bottom .che .icon-gouwuche{
+	display: block;
+	font-size:0.5rem;
+	margin-top: 0.25rem;
+	margin-left: 0.25rem;
+	color: white;
+}
+.zhong{
+	width: 5rem;
+	height: 5.38rem;
+	/*border-radius: 0.2rem;*/
+	background: orange;
+	float: left;
+	position: absolute;
+	top: 4rem;
+	left: 1.5rem;
+	display: none;
+}
+.zhong img{
+	width: 100%;
+	height: 50%;
+}
+.zhong h3{
+	font-size: 0.5rem;
+	margin-top: -0.2rem;
+	font-weight: normal;
+	color: white;
+}
+.zhong .icon-jiahao2{
+	font-size: 0.5rem;
+	color: white;
+	margin-top: -0.3rem;
+	margin-left: 1rem;
+}
+.zhong .icon-jianhao{
+	font-size: 0.5rem;
+	color: white;
+	margin-top: -1.05rem;
+}
+.zhong h4{
+	font-size: 0.5rem;
+	margin-left: 0.6rem;
+	margin-top: -1.08rem;
+	font-weight: normal;
+}
+.zhong h6{
+	font-size: 0.4rem;
+	margin-top: -0.4rem;
+	font-weight: normal;
+	color: white;
+}
+.zhong .boxx{
+	width:1.6rem ;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background: white;
+	float: right;
+	margin-top: -1.3rem;
+	margin-right: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.zhong .boxx a{
+	display: block;
+	font-size: 0.2rem;
+	text-decoration: none;
+	color: orange;
+	/*margin-top: -0.2rem;*/
+
+}

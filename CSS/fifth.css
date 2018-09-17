@@ -1,0 +1,223 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-15 14:39:12
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-16 22:30:29
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.head{
+	width: 100%;
+	height: 6rem;
+	background: orange;
+	padding-top: 0.2rem;
+
+}
+.head i{
+	display: block;
+	font-size: 0.5rem;
+	color: white;
+	margin-left: 0.2rem;
+}
+.head p{
+		font-size: 0.4rem;
+		margin-left: 0.2rem;
+		margin-top: 0.3rem;
+		color: white;
+		float: left;
+}
+.head .box{
+	width: 0.8rem;
+	height: 0.3rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.4rem;
+	margin-left: 0.2rem;
+	border-radius: 0.2rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.3rem;
+	border: 0.02rem solid white;
+	color: white;
+}
+.head h3{
+	font-size: 0.4rem;
+	color: white;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.middle{
+	width: 6.7rem;
+	height: 2.8rem;
+	background: #f7f7f7;
+	margin: -2.2rem auto 0;
+	border-top: 0.05rem solid red;
+	border-bottom: 0.1rem dotted #a48705;
+}
+.middle p{
+	font-size: 0.3rem;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.middle i{
+	display: block;
+	font-size: 0.3rem;
+	text-align: center;
+	font-style: normal;
+	margin-top:-0.1rem;
+	color: #b3b3b3;
+}
+.middle .box{
+	width: 2.8rem;
+	height: 1.1rem;
+	/* background: red; */
+	margin-top: 0.3rem;
+	margin-left: 0.4rem;
+	border-radius: 0.2rem;
+}
+.middle .box img{
+	width: 2.8rem;
+	height: 1.1rem;
+}
+.middle .right{
+	width: 2.8rem;
+	height: 1.1rem;
+	/* background: red; */
+	margin-left: 3.5rem;
+	margin-top: -1.1rem;
+}
+.middle .right img{
+	width: 2.8rem;
+	height: 1.1rem;
+}
+.src{
+	width: 6.7rem;
+	height: 7rem;
+	background: #f7f7f7;
+	margin: 0.1rem auto 0;
+	padding-top: 0.3rem;
+}
+.src p{
+	font-size: 0.3rem;
+	text-align: center;
+}
+.src i{
+	font-size: 0.3rem;
+	color: #b3b3b3;
+	font-style: normal;
+	text-align: center;
+	display: block;
+	margin-top: -0.1rem;
+}
+.src .table{
+	width: 6.2rem;
+	height: 1rem;
+	background: white;
+	margin: 0.3rem auto 0;
+	border-radius: 0.2rem;
+	padding-top: 0.1rem;
+	position: relative;
+}
+.src .table .pic{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-left: 0.2rem;
+	/* background: blue; */
+	border-radius: 0.2rem;
+}
+.src .table .pic i{
+	font-size: 1rem;
+	color: orange;
+}
+.src .table p{
+	font-size: 0.3rem;
+	margin-top: -0.7rem;
+	margin-left: -0.6rem;
+	text-align: center;
+
+}
+.src .table .one{
+	font-size: 0.2rem;
+	margin-left: 0.55rem;
+	margin-top: 0.2rem;
+}
+.src .table .box{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: orange;
+	border-radius: 50%;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.3rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: white;
+}
+.src .table .box1{
+	width: 0.1rem;
+	height: 0.9rem;
+	background: orange;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.1rem;
+	border-radius: 0.1rem
+}
+.src .third{
+	width: 6.2rem;
+	height: 1rem;
+	background: white;
+	margin: 0.3rem auto 0;
+	border-radius: 0.2rem;
+	padding-top: 0.1rem;
+	position: relative;
+}
+.src .third .pic{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-left: 0.2rem;
+	/* background: blue; */
+	border-radius: 0.2rem;
+}
+.src .third .pic i{
+	font-size: 1rem;
+	color: orange;
+}
+.src .third p{
+	font-size: 0.3rem;
+	margin-top: -0.7rem;
+	margin-left: -2.1rem;
+}
+.src .third .one{
+	font-size: 0.2rem;
+	margin-left: 0.1rem;
+	margin-top: 0.2rem;
+}
+.src .third .box1{
+	width: 0.1rem;
+	height: 0.9rem;
+	background: orange;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.1rem;
+	border-radius: 0.1rem
+}
+.src .last{
+	width: 6.2rem;
+	height: 0.8rem;
+	background: orange;
+	margin: 0.8rem auto 0;
+	border-radius: 0.4rem;
+	border: 0.05rem solid white;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: white;
+}
+.src .last a{
+	text-decoration: none;
+	color: #565d60;
+}

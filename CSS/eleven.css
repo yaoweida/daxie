@@ -1,0 +1,196 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-16 21:12:18
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-16 22:10:00
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.head{
+	width: 100%;
+	height: 3rem;
+	background: #ffdb35;
+	padding-top: 0.2rem;
+}
+.head .icon-shezhi{
+	display: block;
+	font-size: 0.5rem;
+	margin-left: 0.2rem;
+	color: white;
+}
+.head h3{
+	font-size: 0.4rem;
+	color: white;
+	text-align: center;
+	margin-top: -0.45rem;
+}
+.head .icon-icon03{
+	display: block;
+	font-size: 0.5rem;
+	margin-right: 0.2rem;
+	float: right;
+	margin-top: -0.6rem;
+	color: white;
+}
+.head .one{
+	font-size: 0.3rem;
+	text-align: center;
+	color: white;
+}
+.head .box{
+	width: 1.5rem;
+	height: 1.5rem;
+	/* background: red; */
+	margin-left: 0.4rem;
+	border-radius: 50%;
+}
+.head .box img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.head h4{
+	font-size: 0.3rem;
+	margin-left: 2rem;
+	margin-top: -1rem;
+	color: white;
+	font-weight: normal;
+}
+.head .icon-shouji{
+	display: block;
+	font-size: 0.4rem;
+	margin-left: 2rem;
+	margin-top: 0.2rem;
+	color: white;
+}
+.head .two{
+	font-size: 0.3rem;
+	/* text-align: center; */
+	color: white;
+	margin-left: 2.5rem;
+	margin-top: -0.3rem;
+}
+.middle{
+	width: 100%;
+	height: 2.1rem;
+	/* background: red; */
+	border-bottom: 0.02rem solid #f5f5f5;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+
+}
+.middle .box{
+	width: 2.5rem;
+	height: 100%;
+	/* background: blue; */
+	border-right: 0.01rem solid #f5f5f5;
+	float: left;
+}
+
+.middle .box h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.5rem;
+	color: orange;
+	font-weight: normal;
+}
+.middle .box p{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.1rem;
+}
+.list{
+	width: 100%;
+	/* height: 1.1rem; */
+	/* background: red; */
+	margin-top: 0.6rem;
+	padding-top: 0.5rem;
+	border-bottom: 0.02rem solid #f5f5f5;
+}
+.list .icon-weibiaoti5{
+	display: block;
+	font-size: 0.5rem;
+	margin-left: 0.4rem;
+}
+.list .icon-xinaixin{
+	display: block;
+	font-size: 0.5rem;
+	margin-left: 0.4rem;
+	color: red;
+}
+.list .icon-liwu{
+	display: block;
+	font-size: 0.5rem;
+	margin-left: 0.4rem;
+	color: orange;
+}
+
+.list h3{
+	font-size: 0.3rem;
+	/* text-align: left; */
+	margin-left: 1.2rem;
+	margin-top: -0.7rem;
+	font-weight: normal;
+}
+.list p{
+	font-size: 0.3rem;
+	margin-left: 1.2rem;
+	margin-top: 0.1rem;
+	color: #e6e6e6;
+}
+.list .you{
+	font-size: 0.6rem;
+	float: right;
+	margin-top: -1.1rem;
+	margin-right: 0.2rem;
+	color: #616161;
+	/*font-weight: normal;*/
+
+
+}
+.bottom{
+	width: 100%;
+	height: 0.7rem;
+	/* background: red; */
+	margin-top: 0.7rem;
+	display: flex;
+	justify-content: space-around;
+}
+.bottom .icon-index{
+	display: block;
+	font-size: 0.4rem;
+	color: #1d1d1d;
+	line-height: 0.4rem;
+	margin-left: 0.6rem;
+
+}
+.bottom .first{
+	font-size: 0.2rem;
+	color: black;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+
+}
+.bottom .first a{
+	text-decoration: none;
+	color: #565d60;
+	/*cursor: pointer;*/
+}
+.bottom i{
+	display: block;
+	font-size: 0.4rem;
+	color: #1d1d1d;
+	line-height: 0.4rem;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+	float: left;
+
+}
+/* .bottom .icon-dingdanxuanzhong{
+	color: orange;
+} */
+.bottom .icon-wode{
+	color: orange;
+}

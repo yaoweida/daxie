@@ -1,0 +1,326 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-09 20:13:22
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-14 19:02:26
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.head{
+	width: 7.5rem;
+	height: 1rem;
+	background: orange;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-around;
+}
+.head h4{
+	font-size: 0.25rem;
+	color: white;
+	margin-top: 0.3rem;
+	margin-left: 0.4rem;
+}
+.head input{
+	width: 3.60rem;
+	height: 0.34rem;
+	border-radius: 0.2rem;
+	margin-top: 0.32rem;
+	
+}
+
+.head i{
+	font-size: 0.4rem;
+	margin-top: 0.25rem;
+	margin-right: 0.4rem;
+	color: white;
+}
+.pic{
+	width: 100%;
+	height: 3rem;
+	/* background: red; */
+	position: relative;
+	
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.pic .box{
+	width: 0.22rem;
+	height: 0.22rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 4.5rem;
+	z-index: 999;
+	
+}
+.pic .box1{
+	width: 0.22rem;
+	height: 0.22rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 4rem;
+	z-index: 999;
+	
+}
+.pic .box2{
+	width: 0.22rem;
+	height: 0.22rem;
+	background: orange;
+	border-radius: 0.2rem;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 3.5rem;
+	z-index: 999;
+	
+}
+.pic .box3{
+	width: 0.22rem;
+	height: 0.22rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 3rem;
+	z-index: 999;
+	
+}
+.middle{
+	width: 100%;
+	height: 3.7rem;
+	/* background: blue; */
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+	margin-top: 0.7rem
+}
+.middle ul{
+	display: flex;
+	justify-content: space-around;
+}
+.middle li{
+	width: 1.5rem;
+	height: 1.5rem;
+	/* background: red; */
+	border-radius: 50%;
+	margin-top: 0.15rem;
+	margin-bottom:0.12rem;
+	box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0);
+}
+.middle ul li img{
+	width: 100%;
+	height: 100%;
+}
+.middle ul li p{
+	font-size: 0.2rem;
+	margin-top: -0.3rem;
+	margin-left: 0.5rem;
+}
+.picture{
+	width: 100%;
+	height: 2rem;
+	/* background: green; */
+}
+.picture img{
+	width: 100%;
+	height: 2rem;
+
+}
+.tu{
+	width: 100%;
+	height: 3rem;
+	/* background: black; */
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+}
+.tu img{
+	height: 3rem;
+	width: 100%;
+}
+.sun{
+	width: 100%;
+	height: 2rem;
+	/* background: green; */
+}
+.sun img{
+	width: 100%;
+	height: 2rem;
+
+}
+.you{
+	width: 100%;
+	height: 0.8rem;
+	/* background: green; */
+	display: flex;
+	justify-content: space-around;
+
+}
+.you .box{
+	width: 1.6rem;
+	height: 0.5rem;
+	/* background: red; */
+	margin-top: 0.15rem;
+	border-radius: 0.5rem;
+	border: 0.02rem solid green;
+	
+
+}
+.you .box p{
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.list{
+	width: 7.5rem;
+	height: 2.5rem;
+	padding-left: 0.24rem;
+	margin-top: 0.2rem;
+}
+.list .pic{
+	width: 1.9rem;
+	height: 2.5rem;
+	/* padding-right: 0.24rem;
+	padding-left: 0.24rem; */
+	float: left;
+}
+.list .pic img{
+	width: 100%;
+	height: 100%;
+}
+.list .biao{
+	width: 5rem;
+	height: 2.5rem;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0.24rem;
+}
+.list .biao ul li{
+/* 	height: 0.5rem;
+ */	font-size: 0.2rem;
+/* 	background: blue; */
+	display: flex;
+	justify-content: start;
+	margin-bottom: 0.1rem;
+}
+.list .biao ul li p{
+	font-size: 0.25rem;
+
+	
+}
+.list .biao ul li i{
+	font-size: 0.25rem;
+	color: yellow;	
+	margin-left: 1.5rem;
+}
+.list .biao ul li:nth-child(2){
+	display: flex;
+	flex-direction: column;
+}
+.list .biao ul li:nth-child(2) p{
+/* 	margin-left: 0.7rem; */
+	color: #686868;
+	margin-bottom: 0.24rem;
+}
+.list .biao ul li:nth-child(2) .p2{
+	margin-bottom: 0;
+}
+
+.list .biao ul li:nth-child(3) .man{
+	width: 0.8rem;
+	height: 0.4rem;
+	/* background: red; */
+	border-radius: 0.3rem;
+	border: 0.02rem solid orange;
+	/* margin-left: -3.4rem; */
+	/* margin-top: 0.2rem; */
+	font-size: 0.25rem;
+	text-align: center;
+}
+.list .biao ul li:nth-child(3) .man p{
+	text-align: center;
+	color:#686868; 
+	font-size: 0.2rem;
+}
+.list .biao ul li:nth-child(4) .jia{
+	width: 0.8rem;
+	height: 0.4rem;
+	/* background: red; */
+	border-radius: 0.3rem;
+	border: 0.02rem solid orange;
+	/* margin-left: -3.4rem; */
+	/* margin-top: 0.2rem; */
+	font-size: 0.25rem;
+	text-align: center;
+}
+.list .biao ul li:nth-child(4) .man p{
+	text-align: center;
+	color:#686868; 
+	font-size: 0.2rem;
+}
+/*.bottom{*/
+	/*width: 100%;*/
+	/*height: 0.9rem;*/
+	/*!* background: red; *!*/
+/*}*/
+/*.bottom img{*/
+	/*width: 100%;*/
+	/*height: 0.9rem;*/
+	/*!* background: red; *!*/
+/*}*/
+.bottom{
+	width: 100%;
+	height: 0.7rem;
+	/* background: red; */
+	margin-top: 0.3rem;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+
+}
+.bottom .icon-shouyetubiao-{
+	display: block;
+	font-size: 0.4rem;
+	color: orange;
+	line-height: 0.4rem;
+	margin-left: 0.6rem;
+
+}
+.bottom .first{
+	font-size: 0.2rem;
+	color: black;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+}
+.bottom .first a{
+	text-decoration: none;
+	color: #565d60;
+}
+.bottom i{
+	display: block;
+	font-size: 0.4rem;
+	color: #1d1d1d;
+	line-height: 0.4rem;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+	float: left;
+}
+/*.bottom .icon-dingdanxuanzhong{*/
+	/*color: orange;*/
+/*}*/

@@ -1,0 +1,195 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-16 18:40:36
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-16 21:09:48
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.head{
+	width: 100%;
+	height: 0.8rem;
+	background: orange;
+}
+.head p{
+	font-size: 0.3rem;
+	color: white;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.head i{
+	display: block;
+	font-size: 0.5rem;
+	color: white;
+	float: right;
+	margin-top: -0.65rem;
+	margin-right: 0.3rem;
+}
+h3{
+	font-size: 0.3rem;
+	color: orange;
+	margin-top: 1rem;
+	margin-left: 0.24rem;
+	font-weight: normal;
+}
+p{
+	font-size: 0.3rem;
+	color: orange;
+	margin-left: 0.24rem;
+}
+.box{
+	width: 2.5rem;
+	height: 3.4rem;
+	/* background: red; */
+	margin-top: 0.5rem;
+	/*margin-left: 0.1rem;*/
+	/* border: 0.01rem solid orange; */
+	/*box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.2);*/
+	float: left;
+	overflow: hidden;
+}
+.box .pic{
+	width: 1.8rem;
+	height: 1.6rem;
+	/* background: blue; */
+	margin: 0 auto;
+}
+.box .pic img{
+	width: 1.8rem;
+	height: 1.6rem;
+}
+.box h3{
+	text-align: center;
+	margin-top: 0.1rem;
+	color: black;
+	font-size: 0.3rem;
+	font-weight: normal;
+}
+.box p{
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	color: black;
+}
+.box i{
+	display: block;
+	font-size: 0.25rem;
+	text-align: center;
+	font-style: normal;
+	color: orange;
+}
+h4{
+	font-size: 0.3rem;
+	color: orange;
+	margin-top: 5rem;
+	margin-left: 0.24rem;
+	font-weight: normal;
+}
+.one{
+	font-size: 0.3rem;
+}
+.last{
+	width: 7.1rem;
+	height: 2rem;
+	box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.2);
+	margin: 0.3rem auto 0;
+	border-radius: 0.2rem;
+}
+.last .picture{
+	width: 2.7rem;
+	height: 100%;
+	/* background: blue; */
+	border-radius: 0.2rem;
+}
+.last .picture img{
+	width: 2.7rem;
+	height: 100%;
+}
+.last h5{
+	font-size: 0.3rem;
+	text-align: center;
+	color: black;
+	margin-top: -1.8rem;
+	font-weight: normal;
+}
+.last .table{
+	margin-left: 2.9rem;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+	color: black;
+}
+.last .text{
+	display: block;
+	font-size: 0.2rem;
+	font-style: normal;
+	margin-left: 2.9rem;
+	color: orange;
+	margin-top: 0.1rem;
+}
+.last .ping{
+	width: 1.4rem;
+	height: 0.4rem;
+	background: orange;
+	float: right;
+	margin-top: -1.5rem;
+	margin-right: 0.3rem;
+	border-radius: 0.2rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: white;
+}
+.last .dan{
+	width: 1.4rem;
+	height: 0.4rem;
+	background: orange;
+	float: right;
+	margin-right: 0.3rem;
+	border-radius: 0.2rem;
+	margin-top: -0.5rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: white;
+}
+.bottom{
+	width: 100%;
+	height: 0.7rem;
+	/* background: red; */
+	margin-top: 0.3rem;
+	display: flex;
+	justify-content: space-around;
+
+}
+.bottom .icon-index{
+	display: block;
+	font-size: 0.4rem;
+	color: #1d1d1d;
+	line-height: 0.4rem;
+	margin-left: 0.6rem;
+
+}
+.bottom .first{
+	font-size: 0.2rem;
+	color: black;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+}
+.bottom .first a{
+	text-decoration: none;
+	color: #565d60;
+}
+.bottom i{
+	display: block;
+	font-size: 0.4rem;
+	color: #1d1d1d;
+	line-height: 0.4rem;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+	float: left;
+}
+.bottom .icon-dingdanxuanzhong{
+	color: orange;
+}
